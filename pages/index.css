@@ -3,12 +3,15 @@
 /* Import other CSS files after normalize.css */
 @import url("main.css");
 
-page{
+.header{
+
+}
+
+.page{
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
   font-family: inter, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-
 }
