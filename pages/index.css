@@ -3,11 +3,7 @@
 /* Import other CSS files after normalize.css */
 @import url("main.css");
 
-.header{
-
-}
-
-.page{
+.page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
