@@ -1,13 +1,21 @@
 @import url("normalize.css");
-
 /* Import other CSS files after normalize.css */
 @import url("main.css");
+header,
+content,
+main,
+recipes,
+reservation,
+menu,
+about,
+footer,
+
 
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: inter, Arial, sans-serif;
+  font-family: Inter, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
