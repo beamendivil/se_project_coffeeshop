@@ -37,13 +37,13 @@
 
 
   .header__span-accent {
-    color: #3F96F3;
     display: block;
-    font-family: "Noto Serif";
+    font-family: "Noto Serif", serif;
     font-style: italic;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 60px;
     line-height: 72px;
+    color:#2f80ed;
   }
 
   .header__description{
