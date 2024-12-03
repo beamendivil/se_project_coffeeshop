@@ -123,12 +123,11 @@ h1 {
 }
 
 .recipes__title{
-  max-width: 500PX;
-  margin:0 0 24px;
+  text-align: center;
+  margin: 0 auto 80px;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  color: #ffffff;
 
 }
 
@@ -178,6 +177,7 @@ h1 {
 
 .reservation{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 100px 0px 120px;
@@ -206,10 +206,9 @@ h1 {
 }
 
 .reservation__form{
-  display: flex;
   max-width: 385px;
   margin: 0 auto;
-  justify-content: center;
+
 }
 
 
@@ -235,6 +234,7 @@ margin-top:100px;
 }
 
 .form__label{
+  display: flex;
 color:#000000;
 font-weight: 500;
 font-size: 16px;
@@ -251,14 +251,16 @@ font-size: 16px;
   margin: 0;
   padding: 0;
   border: none;
-  align-content: center;}
+  align-content: center;
+}
 
 .form__input{
+color:#000;
 max-width: 385px;
 margin:8px 0 32px 0;
 text-align: left;
 height: 60px;
-padding: 0;
+padding: 15px 28px 15px 28px;
 box-sizing: border-box;
 border-radius: 4px;
 font-size: 20px;
@@ -266,7 +268,7 @@ line-height: 30px;
 }
 
 .form__button{
-  width:385px;
+width:385px;
 border-style: none;
 border-radius: 4px;
 font-weight: 500;

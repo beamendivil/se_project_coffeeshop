@@ -99,16 +99,17 @@
         </section>
       <section class="reservation" id="booking">
         <h3 class="reservation__title">Book a Table</h3>
-        <fieldset class="reservation__fieldset form">
-            <label for="username" class="form__label">Name</label>
+        <form class="form reservation__form">
+          <fieldset class="form__fieldset">
+            <label for="username" class="form__label">Type your name here</label>
             <input
             type="text"
             class="form__input"
-            id="name"
-            name="name"
+            id="username"
+            name="username"
             placeholder="Type your first and last name"
             />
-            <label for="Number of Guest" class="form__label">Number of Guests</label>
+            <label for="guestnumber" class="form__label">Number of Guests</label>
             <input
             type="number"
             class="form__input"
@@ -134,13 +135,11 @@
           required
           />
         </fieldset>
-
         <fieldset class="form__fieldset">
           <button type="submit" class="form__button">Book a table</button>
         </fieldset>
         <fieldset class="form__fieldset form__fieldset_checkbox_form-check">
-          <label for="checkbox" class="form__label"
-            >I agree with the terms of use</label
+          <label for="checkbox" class="form__label">I agree with the terms of use</label
           >
           <input
             type="checkbox"
@@ -149,8 +148,7 @@
             required
           />
         </fieldset>
-
-      </form>
+        </form>
     </section>
       <section class="menu" id="menu"></section>
       <section class="about" id="about"></section>
