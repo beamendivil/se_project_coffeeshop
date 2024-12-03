@@ -8,7 +8,7 @@
 
 }
 
-.h1 {
+h1 {
   font-family: 'Noto Serif', serif;
   font-weight: 400;
 
@@ -116,32 +116,34 @@
     color:#fff;
     background-image: url(../images/background_recipes.svg);
     background-color: #0a2750;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
 
 }
 
 .recipes__title{
+  max-width: 500PX;
   margin:0 0 24px;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  color: #ffffff;
 
 }
 
 .recipes__subtitle {
     margin: 0 0 80px;
     max-width: 438px;
-    font-family: "Noto Serif";
-    font-family: "Noto Serif";
-    font-style: normal;
-    font-weight: normal;
+    font-family: "Noto Serif", "Times New Roman", Serif;
     font-size: 20px;
     line-height: 30px;
+    color: #ffffff;
   }
 
   .recipes__videos {
     display: flex;
+    flex-wrap: wrap;
     gap: 100px;
     justify-content: center;
     list-style: none;
@@ -158,10 +160,10 @@
     line-height: 30px;
   }
 
-  .recipes_iframe {
+  .recipes__iframe {
     margin-bottom: 24px;
     margin-top: 80px;
-    width: 100%;
+    width: 480px;
   }
 
 
@@ -174,3 +176,105 @@
     color: white;
   }
 
+.reservation{
+  padding: 100px 0px 120px;
+  background-color:#D9E7FF;
+  background-image: url(../images/background_reservation.svg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.reservation__title{
+  color:#000000;
+  margin:0 auto 80px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form{
+  display:center;
+  max-width: 385px;
+  margin: auto;
+}
+
+
+.form__title{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+border-top: 100px;
+color:#000;
+margin-top:100px;
+}
+
+.form__fieldset{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  border-style: none;
+
+
+}
+
+.form__label{
+color:#000000;
+font-weight: 500;
+font-size: 16px;
+}
+
+.form__input{
+max-width: 385px;
+margin:8px 0 32px 0;
+text-align: left;
+height: 60px;
+padding: 0;
+box-sizing: border-box;
+border-radius: 4px;
+font-size: 20px;
+line-height: 30px;
+}
+
+.form__button{
+  width:385px;
+border-style: none;
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+height: 60px;
+background-color:#1878DC;
+padding: 0;
+color:#fff;
+}
+
+.form__submit {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form__button:hover{
+  transition:opacity 0.2s;
+  opacity: 0.7;
+}
+
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 0 12px 0 0;
+}
+
+.form__fieldset_checkbox_form-check {
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 32px 0 0;
+}
