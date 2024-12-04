@@ -1,0 +1,85 @@
+
+.form {
+  max-width: 385px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form__title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #000;
+  margin-top: 100px;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  border-style: none;
+}
+
+.form__label {
+  display: flex;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.form__fieldset--reservation {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: none;
+  align-content: center;
+}
+
+.form__input {
+  color: #000;
+  max-width: 385px;
+  margin: 8px 0 32px 0;
+  text-align: left;
+  height: 60px;
+  padding: 15px 28px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__button {
+  width: 385px;
+  border-style: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  height: 60px;
+  background-color: #1878DC;
+  padding: 0;
+  color: #fff;
+}
+
+.form__button:hover {
+  transition: opacity 0.2s;
+  opacity: 0.7;
+}
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 0 12px 0 0;
+}
+
+.form__fieldset--checkbox {
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 32px 0 0;
+}
