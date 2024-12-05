@@ -123,6 +123,7 @@
             name="datetime-local"
             required
           />
+          </label>
            <label for="your-email"
           class="form__label">Your-email</label>
           <input type="text"
@@ -132,21 +133,16 @@
           placeholder="your-email"
           required
           />
+          </label>
         </fieldset>
-        <fieldset class="form__fieldset">
-          <button type="submit" class="form__button">Book a table</button>
-        </fieldset>
-        <fieldset class="form__fieldset form__fieldset_checkbox_form-check">
-          <label for="checkbox" class="form__label">I agree with the terms of use</label
-          >
-          <input
+
+        <button class="form__button">Book a table</button>
+          <label for="checkbox" class="form__label form__label_type_checkbox">
+            <input required
             type="checkbox"
-            class="form__checkbox"
-            id="checkbox"
-            required
-          />
-        </fieldset>
-        </form>
+            class="form__checkbox form__label_type_checkbox"
+            />
+            I agree with the terms of use</label>
     </section>
     <section class="menu" id="menu">
       <h2 class="menu__title">Menu</h2>
