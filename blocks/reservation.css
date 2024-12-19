@@ -4,16 +4,16 @@
   justify-content: center;
   align-items: center;
   padding: 100px 0 120px;
-  background-color: #D9E7FF;
+  background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
   background-position: center;
   background-size: cover;
   min-height: 100vh;
 }
 
-.reservation__form{
+.reservation__form {
   width: 385px;
-
+  margin: 0 auto;
 }
 
 .reservation__title {

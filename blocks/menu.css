@@ -1,5 +1,5 @@
-.menu{
-  padding:100px 0;
+.menu {
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,17 +8,17 @@
   background-position: cover;
 }
 
-.menu__title{
-margin:0 0 24px;
-font-weight: 500;
-font-size: 44px;
-line-height: 52px;
-max-width: 780px;
-text-align: center;
+.menu__title {
+  margin: 0 0 24px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 780px;
+  text-align: center;
 }
 
-.menu__subtitle{
-  margin:0 0 100px;
+.menu__subtitle {
+  margin: 0 0 100px;
   font-family: "Noto Serif", "Times New Roman", Serif;
   font-size: 20px;
   line-height: 30px;
@@ -27,9 +27,9 @@ text-align: center;
   text-align: center;
 }
 
-.menu__cards{
-display: flex;
-font-family: "Noto Serif";
+.menu__cards {
+  display: flex;
+  font-family: "Noto Serif", "Times New Roman", serif serif;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0;
