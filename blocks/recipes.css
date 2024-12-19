@@ -9,7 +9,7 @@
 }
 
 .recipes__title {
-  margin: 0 auto 80px;
+  margin: 0 auto 24px;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -30,7 +30,7 @@
   gap: 100px;
   justify-content: center;
   list-style: none;
-  margin-bottom: 215px;
+
 }
 
 .recipes__video-caption {
