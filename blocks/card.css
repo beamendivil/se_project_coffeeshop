@@ -1,27 +1,32 @@
-.card{
-  width:540px;
-  list-style:none;
+.card {
+  width: 540px;
+  list-style: none;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
-.card__list{
-  padding:0;
-  margin:0;
-  display:flex;
-  flex-direction:column;
-  gap:16px;
+.card__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.card__title{
+.card__title {
   margin: 0 0 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-.card__list-item{
-  display:flex;
-  gap:10px;
+.card__list-item {
+  display: flex;
+  gap: 10px;
 }
-.card__list-divider{
-  flex-grow:1;
+.card__list-divider {
+  flex-grow: 1;
   border-bottom: 1px solid black;
 }

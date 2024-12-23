@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   background-image: url(../images/background_header.svg);
+  background-position: center;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -32,8 +33,6 @@
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  font-size: 60px;
-  line-height: 72px;
   color: #2f80ed;
 }
 

@@ -1,13 +1,13 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
 }
 
 .nav__logo {
+  height: 39px;
+  width: 105px;
   position: relative;
-  left: -50px;
-  padding-left: 30px;
+  left: 130;
 }
 
 .nav__links {
@@ -16,4 +16,16 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+.nav__link {
+  color: #000;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link:hover {
+  color: #1f69c9;
 }

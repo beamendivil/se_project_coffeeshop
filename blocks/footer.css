@@ -1,13 +1,12 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-  padding: 60px 100px 60px 80px;
+  padding: 60px 80px 108px;
   color: #fff;
 }
 
 .footer__content {
   display: flex;
   justify-content: space-between;
-  margin: 60 0 108px;
 }
 
 .footer__logo {
@@ -18,8 +17,10 @@
 .footer__list {
   padding: 0;
   margin: 0;
+  display: flex;
   list-style: none;
-  text-align: end;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .footer__list-item {
@@ -58,9 +59,5 @@
 }
 
 .footer__copyright {
-  font-size: 16px;
-  line-height: 20px;
-  margin: 0;
-  width: 108px;
-  height: 39px;
+  margin: 108px 0 0;
 }
