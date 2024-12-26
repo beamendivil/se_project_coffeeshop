@@ -1,13 +1,13 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  margin: 30px 30px 80px;
 }
 
 .nav__logo {
   height: 39px;
   width: 105px;
   position: relative;
-  left: 130;
 }
 
 .nav__links {
@@ -24,8 +24,9 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  transition: opacity 0.3s ease;
 }
 
 .nav__link:hover {
-  color: #1f69c9;
+  opacity: 0.5;
 }

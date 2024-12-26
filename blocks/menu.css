@@ -30,7 +30,7 @@
 
 .menu__cards {
   display: flex;
-  font-family: "Noto Serif", "Times New Roman", serif serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0;

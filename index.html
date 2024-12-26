@@ -94,8 +94,6 @@
             </li>
             <li>
               <iframe
-                width="560"
-                height="315"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=OxPXHZq08BfUf_EZ"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -115,52 +113,57 @@
           <h2 class="reservation__title">Book a Table</h2>
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
-              <label for="username" class="form__label">Name</label>
-              <input
-                type="text"
-                class="form__input"
-                id="username"
-                name="username"
-                placeholder="Type your first and last name"
-                required
-              />
+              <label for="username" class="form__label"
+                >Name
+                <input
+                  type="text"
+                  class="form__input"
+                  id="username"
+                  name="username"
+                  placeholder="Type your first and last name"
+                  required
+              /></label>
               <label for="Number of Guests" class="form__label"
-                >Number of Guests</label
-              >
-              <input
-                type="number"
-                class="form__input"
-                id="Number of Guests"
-                name="Number of Guests"
-                placeholder="Number of guests"
-                required
-              />
+                >Number of Guests
+                <input
+                  type="number"
+                  min="1"
+                  max="8"
+                  class="form__input"
+                  id="#ofGuests"
+                  name="Number of Guests"
+                  placeholder="Number of guests"
+                  required
+              /></label>
               <label for="datetime-local" class="form__label"
-                >Date & time</label
-              >
-              <input
-                type="datetime-local"
-                class="form__input"
-                id="datetime-local"
-                name="datetime-local"
-                required
-              />
-              <label for="your-email" class="form__label">Your-email</label>
-              <input
-                type="text"
-                class="form__input"
-                id="your-email"
-                name="your-email"
-                placeholder="your-email"
-                required
-              />
+                >Date & time
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  id="datetime-local"
+                  name="datetime-local"
+                  required
+              /></label>
+              <label for="your-email" class="form__label"
+                >Your-email
+                <input
+                  type="text"
+                  class="form__input"
+                  id="your-email"
+                  name="your-email"
+                  placeholder="your-email"
+                  required
+                />
+              </label>
             </fieldset>
             <button class="form__button">Book a table</button>
-            <label for="checkbox" class="form__label">
+
+            <label for="checkbox" class="form__label form__label_type_checkbox">
               <input
                 required
                 type="checkbox"
-                class="form__checkbox form__label_type_checkbox"
+                class="form__checkbox"
+                id="checkbox"
               />I agree with the terms of use
             </label>
           </form>
@@ -295,6 +298,5 @@
         <p class="footer__copyright">&copy;2024 Bea Mendivil</p>
       </footer>
     </div>
-    <script src="script.js"></script>
   </body>
 </html>
