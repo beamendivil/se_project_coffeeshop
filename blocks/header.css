@@ -54,7 +54,7 @@
 }
 
 .header__footer {
-  position: absolute;
+  margin-top: auto;
   left: 0;
   bottom: 40px;
   width: 100%;
@@ -63,7 +63,7 @@
   justify-content: space-between;
   box-sizing: border-box;
   color: #838383;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Arial", "sans-serif";
   font-weight: 500;
   padding: 40px 80px 0;
 }

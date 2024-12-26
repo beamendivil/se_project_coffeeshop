@@ -1,6 +1,6 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-  padding: 60px 80px 108px;
+  padding: 60px 80px 60px;
   color: #fff;
 }
 
@@ -20,7 +20,6 @@
   display: flex;
   list-style: none;
   flex-direction: column;
-  gap: 16px;
 }
 
 .footer__list-item {
